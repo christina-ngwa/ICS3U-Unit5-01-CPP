@@ -24,7 +24,7 @@ void fahrenheit() {
 
     // process
     try {
-        tempInCelsius = std::stoi(tempInCelsiusString);
+        tempInCelsius = std::stof(tempInCelsiusString);
         tempInFahrenheit = (9.0/5.0 * tempInCelsius) + 32;
         // output
         std::cout << "The temperature is " << tempInFahrenheit
